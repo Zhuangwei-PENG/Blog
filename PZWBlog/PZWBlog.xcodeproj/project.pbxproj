@@ -11,6 +11,13 @@
 		CFDA393A1F8203EC00314BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA39391F8203EC00314BBA /* Assets.xcassets */; };
 		CFDA39401F8203EC00314BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA393F1F8203EC00314BBA /* main.m */; };
 		CFDA394A1F8203EC00314BBA /* PZWBlogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39491F8203EC00314BBA /* PZWBlogTests.m */; };
+		CFDA397C1F8205D700314BBA /* PZWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA397B1F8205D700314BBA /* PZWBaseViewController.m */; };
+		CFDA397F1F8205F400314BBA /* PZWTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA397E1F8205F400314BBA /* PZWTabbarController.m */; };
+		CFDA39821F82061800314BBA /* PZWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39811F82061800314BBA /* PZWNavigationController.m */; };
+		CFDA39851F82064700314BBA /* PZWHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39841F82064700314BBA /* PZWHomeController.m */; };
+		CFDA39881F82065600314BBA /* PZWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39871F82065600314BBA /* PZWDiscoverController.m */; };
+		CFDA398B1F82066600314BBA /* PZWMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA398A1F82066600314BBA /* PZWMessageController.m */; };
+		CFDA398E1F82067700314BBA /* PZWProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA398D1F82067700314BBA /* PZWProfileController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,47 @@
 		CFDA39451F8203EC00314BBA /* PZWBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PZWBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA39491F8203EC00314BBA /* PZWBlogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWBlogTests.m; sourceTree = "<group>"; };
 		CFDA394B1F8203EC00314BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDA395F1F82059400314BBA /* Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		CFDA39601F82059400314BBA /* NSArray+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		CFDA39611F82059400314BBA /* NSArray+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		CFDA39621F82059400314BBA /* NSArray+Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		CFDA39631F82059400314BBA /* NSArray+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		CFDA39641F82059400314BBA /* NSAttributedString+Additon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additon.h"; sourceTree = "<group>"; };
+		CFDA39651F82059400314BBA /* NSAttributedString+Additon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additon.m"; sourceTree = "<group>"; };
+		CFDA39661F82059400314BBA /* NSObject+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		CFDA39671F82059400314BBA /* NSObject+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		CFDA39681F82059400314BBA /* NSObject+Formula.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
+		CFDA39691F82059400314BBA /* NSObject+Formula.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
+		CFDA396A1F82059400314BBA /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		CFDA396B1F82059400314BBA /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		CFDA396C1F82059400314BBA /* NSString+path.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
+		CFDA396D1F82059400314BBA /* NSString+path.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
+		CFDA396E1F82059400314BBA /* UIButton+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Addition.h"; sourceTree = "<group>"; };
+		CFDA396F1F82059400314BBA /* UIButton+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Addition.m"; sourceTree = "<group>"; };
+		CFDA39701F82059400314BBA /* UIColor+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		CFDA39711F82059400314BBA /* UIColor+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		CFDA39721F82059400314BBA /* UIImage+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		CFDA39731F82059400314BBA /* UIImage+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		CFDA39741F82059400314BBA /* UIImage+Blur.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		CFDA39751F82059400314BBA /* UIImage+Blur.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		CFDA39761F82059400314BBA /* UILabel+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		CFDA39771F82059400314BBA /* UILabel+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		CFDA39781F82059400314BBA /* UIView+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		CFDA39791F82059400314BBA /* UIView+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		CFDA397A1F8205D700314BBA /* PZWBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWBaseViewController.h; sourceTree = "<group>"; };
+		CFDA397B1F8205D700314BBA /* PZWBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWBaseViewController.m; sourceTree = "<group>"; };
+		CFDA397D1F8205F400314BBA /* PZWTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWTabbarController.h; sourceTree = "<group>"; };
+		CFDA397E1F8205F400314BBA /* PZWTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWTabbarController.m; sourceTree = "<group>"; };
+		CFDA39801F82061800314BBA /* PZWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWNavigationController.h; sourceTree = "<group>"; };
+		CFDA39811F82061800314BBA /* PZWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWNavigationController.m; sourceTree = "<group>"; };
+		CFDA39831F82064700314BBA /* PZWHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWHomeController.h; sourceTree = "<group>"; };
+		CFDA39841F82064700314BBA /* PZWHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWHomeController.m; sourceTree = "<group>"; };
+		CFDA39861F82065600314BBA /* PZWDiscoverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWDiscoverController.h; sourceTree = "<group>"; };
+		CFDA39871F82065600314BBA /* PZWDiscoverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWDiscoverController.m; sourceTree = "<group>"; };
+		CFDA39891F82066600314BBA /* PZWMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWMessageController.h; sourceTree = "<group>"; };
+		CFDA398A1F82066600314BBA /* PZWMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWMessageController.m; sourceTree = "<group>"; };
+		CFDA398C1F82067700314BBA /* PZWProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWProfileController.h; sourceTree = "<group>"; };
+		CFDA398D1F82067700314BBA /* PZWProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWProfileController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +124,7 @@
 			children = (
 				CFDA39301F8203EC00314BBA /* AppDelegate.h */,
 				CFDA39311F8203EC00314BBA /* AppDelegate.m */,
+				CFDA39541F82057000314BBA /* Classes */,
 				CFDA39391F8203EC00314BBA /* Assets.xcassets */,
 				CFDA393E1F8203EC00314BBA /* Info.plist */,
 				CFDA393F1F8203EC00314BBA /* main.m */,
@@ -90,6 +139,134 @@
 				CFDA394B1F8203EC00314BBA /* Info.plist */,
 			);
 			path = PZWBlogTests;
+			sourceTree = "<group>";
+		};
+		CFDA39541F82057000314BBA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA39571F82057000314BBA /* View */,
+				CFDA39551F82057000314BBA /* Model */,
+				CFDA395D1F82057000314BBA /* ViewModel */,
+				CFDA39561F82057000314BBA /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CFDA39551F82057000314BBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFDA39561F82057000314BBA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA395E1F82059400314BBA /* Common */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CFDA39571F82057000314BBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA395A1F82057000314BBA /* Main */,
+				CFDA39591F82057000314BBA /* Home */,
+				CFDA39581F82057000314BBA /* Discover */,
+				CFDA395B1F82057000314BBA /* Message */,
+				CFDA395C1F82057000314BBA /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFDA39581F82057000314BBA /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA39861F82065600314BBA /* PZWDiscoverController.h */,
+				CFDA39871F82065600314BBA /* PZWDiscoverController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		CFDA39591F82057000314BBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA39831F82064700314BBA /* PZWHomeController.h */,
+				CFDA39841F82064700314BBA /* PZWHomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CFDA395A1F82057000314BBA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA397A1F8205D700314BBA /* PZWBaseViewController.h */,
+				CFDA397B1F8205D700314BBA /* PZWBaseViewController.m */,
+				CFDA397D1F8205F400314BBA /* PZWTabbarController.h */,
+				CFDA397E1F8205F400314BBA /* PZWTabbarController.m */,
+				CFDA39801F82061800314BBA /* PZWNavigationController.h */,
+				CFDA39811F82061800314BBA /* PZWNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CFDA395B1F82057000314BBA /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA39891F82066600314BBA /* PZWMessageController.h */,
+				CFDA398A1F82066600314BBA /* PZWMessageController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CFDA395C1F82057000314BBA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA398C1F82067700314BBA /* PZWProfileController.h */,
+				CFDA398D1F82067700314BBA /* PZWProfileController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CFDA395D1F82057000314BBA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CFDA395E1F82059400314BBA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CFDA395F1F82059400314BBA /* Addition.h */,
+				CFDA39601F82059400314BBA /* NSArray+Addition.h */,
+				CFDA39611F82059400314BBA /* NSArray+Addition.m */,
+				CFDA39621F82059400314BBA /* NSArray+Log.h */,
+				CFDA39631F82059400314BBA /* NSArray+Log.m */,
+				CFDA39641F82059400314BBA /* NSAttributedString+Additon.h */,
+				CFDA39651F82059400314BBA /* NSAttributedString+Additon.m */,
+				CFDA39661F82059400314BBA /* NSObject+Addition.h */,
+				CFDA39671F82059400314BBA /* NSObject+Addition.m */,
+				CFDA39681F82059400314BBA /* NSObject+Formula.h */,
+				CFDA39691F82059400314BBA /* NSObject+Formula.m */,
+				CFDA396A1F82059400314BBA /* NSString+Hash.h */,
+				CFDA396B1F82059400314BBA /* NSString+Hash.m */,
+				CFDA396C1F82059400314BBA /* NSString+path.h */,
+				CFDA396D1F82059400314BBA /* NSString+path.m */,
+				CFDA396E1F82059400314BBA /* UIButton+Addition.h */,
+				CFDA396F1F82059400314BBA /* UIButton+Addition.m */,
+				CFDA39701F82059400314BBA /* UIColor+Addition.h */,
+				CFDA39711F82059400314BBA /* UIColor+Addition.m */,
+				CFDA39721F82059400314BBA /* UIImage+Additions.h */,
+				CFDA39731F82059400314BBA /* UIImage+Additions.m */,
+				CFDA39741F82059400314BBA /* UIImage+Blur.h */,
+				CFDA39751F82059400314BBA /* UIImage+Blur.m */,
+				CFDA39761F82059400314BBA /* UILabel+Addition.h */,
+				CFDA39771F82059400314BBA /* UILabel+Addition.m */,
+				CFDA39781F82059400314BBA /* UIView+Addition.h */,
+				CFDA39791F82059400314BBA /* UIView+Addition.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDA39821F82061800314BBA /* PZWNavigationController.m in Sources */,
 				CFDA39401F8203EC00314BBA /* main.m in Sources */,
+				CFDA397F1F8205F400314BBA /* PZWTabbarController.m in Sources */,
+				CFDA398B1F82066600314BBA /* PZWMessageController.m in Sources */,
+				CFDA398E1F82067700314BBA /* PZWProfileController.m in Sources */,
 				CFDA39321F8203EC00314BBA /* AppDelegate.m in Sources */,
+				CFDA39881F82065600314BBA /* PZWDiscoverController.m in Sources */,
+				CFDA39851F82064700314BBA /* PZWHomeController.m in Sources */,
+				CFDA397C1F8205D700314BBA /* PZWBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
