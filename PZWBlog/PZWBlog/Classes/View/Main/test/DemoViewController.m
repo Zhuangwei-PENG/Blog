@@ -16,9 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"下一个" style:UIBarButtonItemStylePlain target:self action:@selector(showNext)];
     // Do any additional setup after loading the view.
 }
 
+- (void)showNext{
+    DemoViewController *dvc = [[DemoViewController alloc] init];
+    [self.navigationController pushViewController:dvc animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
