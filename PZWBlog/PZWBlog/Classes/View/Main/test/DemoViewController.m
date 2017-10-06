@@ -1,28 +1,22 @@
 //
-//  PZWHomeController.m
+//  DemoViewController.m
 //  PZWBlog
 //
-//  Created by Zhuangwei PENG on 2017/10/2.
+//  Created by Zhuangwei PENG on 2017/10/6.
 //  Copyright © 2017年 Zhuangwei PENG. All rights reserved.
 //
 
-#import "PZWHomeController.h"
 #import "DemoViewController.h"
 
-@interface PZWHomeController ()
+@interface DemoViewController ()
 
 @end
 
-@implementation PZWHomeController
+@implementation DemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"好友" style:UIBarButtonItemStylePlain target:self action:@selector(showFriends)];
-}
-
-- (void)showFriends{
-    DemoViewController *dvc = [[DemoViewController alloc] init];
-    [self.navigationController pushViewController:dvc animated:YES];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

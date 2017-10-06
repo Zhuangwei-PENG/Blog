@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF8ABC191F85D71E00247201 /* UIScreen+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8ABC181F85D71E00247201 /* UIScreen+Addition.m */; };
 		CFDA39321F8203EC00314BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39311F8203EC00314BBA /* AppDelegate.m */; };
 		CFDA393A1F8203EC00314BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA39391F8203EC00314BBA /* Assets.xcassets */; };
 		CFDA39401F8203EC00314BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA393F1F8203EC00314BBA /* main.m */; };
@@ -18,6 +19,8 @@
 		CFDA39881F82065600314BBA /* PZWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39871F82065600314BBA /* PZWDiscoverController.m */; };
 		CFDA398B1F82066600314BBA /* PZWMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA398A1F82066600314BBA /* PZWMessageController.m */; };
 		CFDA398E1F82067700314BBA /* PZWProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA398D1F82067700314BBA /* PZWProfileController.m */; };
+		CFF475AA1F87B856008E7180 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF475A91F87B856008E7180 /* DemoViewController.m */; };
+		CFF475AB1F87BCEC008E7180 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA39711F82059400314BBA /* UIColor+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF8ABC171F85D71E00247201 /* UIScreen+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Addition.h"; sourceTree = "<group>"; };
+		CF8ABC181F85D71E00247201 /* UIScreen+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Addition.m"; sourceTree = "<group>"; };
 		CFDA392D1F8203EC00314BBA /* PZWBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZWBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA39301F8203EC00314BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFDA39311F8203EC00314BBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +86,8 @@
 		CFDA398A1F82066600314BBA /* PZWMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWMessageController.m; sourceTree = "<group>"; };
 		CFDA398C1F82067700314BBA /* PZWProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZWProfileController.h; sourceTree = "<group>"; };
 		CFDA398D1F82067700314BBA /* PZWProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZWProfileController.m; sourceTree = "<group>"; };
+		CFF475A81F87B856008E7180 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		CFF475A91F87B856008E7180 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +207,7 @@
 		CFDA395A1F82057000314BBA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CFF475A71F87B83A008E7180 /* test */,
 				CFDA397A1F8205D700314BBA /* PZWBaseViewController.h */,
 				CFDA397B1F8205D700314BBA /* PZWBaseViewController.m */,
 				CFDA397D1F8205F400314BBA /* PZWTabbarController.h */,
@@ -265,8 +273,19 @@
 				CFDA39771F82059400314BBA /* UILabel+Addition.m */,
 				CFDA39781F82059400314BBA /* UIView+Addition.h */,
 				CFDA39791F82059400314BBA /* UIView+Addition.m */,
+				CF8ABC171F85D71E00247201 /* UIScreen+Addition.h */,
+				CF8ABC181F85D71E00247201 /* UIScreen+Addition.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		CFF475A71F87B83A008E7180 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CFF475A81F87B856008E7180 /* DemoViewController.h */,
+				CFF475A91F87B856008E7180 /* DemoViewController.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,6 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF475AB1F87BCEC008E7180 /* UIColor+Addition.m in Sources */,
+				CFF475AA1F87B856008E7180 /* DemoViewController.m in Sources */,
 				CFDA39821F82061800314BBA /* PZWNavigationController.m in Sources */,
 				CFDA39401F8203EC00314BBA /* main.m in Sources */,
 				CFDA397F1F8205F400314BBA /* PZWTabbarController.m in Sources */,
@@ -378,6 +399,7 @@
 				CFDA39881F82065600314BBA /* PZWDiscoverController.m in Sources */,
 				CFDA39851F82064700314BBA /* PZWHomeController.m in Sources */,
 				CFDA397C1F8205D700314BBA /* PZWBaseViewController.m in Sources */,
+				CF8ABC191F85D71E00247201 /* UIScreen+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
