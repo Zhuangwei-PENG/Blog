@@ -93,7 +93,9 @@
     if (title && imageName && cls) {
         vc = [[cls alloc] init];
         
-        [vc.tabBarItem setTitle:title];
+//        [vc.tabBarItem setTitle:title];
+        //设置了ViewController的标题，就自动设置了tabBarItem的标题
+        vc.title = title;
         [vc.tabBarItem setImage:[UIImage imageNamed:imageName]];
         [vc.tabBarItem setSelectedImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@_selected",imageName]]];
         [vc.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor orangeColor]} forState:UIControlStateSelected];

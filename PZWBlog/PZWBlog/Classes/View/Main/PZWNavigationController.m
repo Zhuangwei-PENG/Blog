@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationBar.hidden = YES;
     // Do any additional setup after loading the view.
 }
 //重写push方法，隐藏tabbar

@@ -19,7 +19,11 @@
     [super viewDidLoad];
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"好友" style:UIBarButtonItemStylePlain target:self action:@selector(showFriends)];
 }
-
+- (void)setupUI{
+    [super setupUI];
+//    self.navItem.title = self.tabBarItem.title;
+    
+}
 - (void)showFriends{
     DemoViewController *dvc = [[DemoViewController alloc] init];
     [self.navigationController pushViewController:dvc animated:YES];

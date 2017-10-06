@@ -10,4 +10,9 @@
 
 @interface PZWBaseViewController : UIViewController
 
+@property (nonatomic, strong) UINavigationBar *navBar;
+@property (nonatomic, strong) UINavigationItem *navItem;
+
+- (void)setupUI;
+
 @end
